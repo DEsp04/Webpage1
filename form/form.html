@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Subscription</title>
+		<link rel="stylesheet" href="formstyle.css"> 
+	</head>
+	<body>
+	  <div id="wrapper">
+		<header>
+			<p id="banner"><img src="../images/banner.jpg"></p>    <!-- Add Dave's SC banner here -->
+		</header>
+		<nav class="sectioncolor">
+			<ul class="row">
+				<li><a href="../webpage1.html" title="home">Home</a></li>
+				<li><a href="SportsNews.html" title="sports news">Sports News</a></li>
+				<li><a href="Basketball.html" title="basketball">Basketball</a></li>
+				<li><a href="Baseball.html" title="baseball">Baseball</a></li>
+				<li><a href="Football.html" title="football">Football</a></li>
+				<li><a href="About.html" title="about">About</a></li>
+				<li><a href="Contact.html" title="contact">Contact</a></li>
+			</ul>
+	  	</nav>
+		<h1>Fill out the form below &amp; click 'submit' to subscribe</h1>
+		<form action="#" method="post">	
+				<div class="subs">
+					<label for="first_name">First Name:</label>
+					<input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+				</div>
+				<div class="subs">
+					<label for="last_name">Last Name:</label>
+					<input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
+				</div>
+				<div class="subs">
+					<label for="email_address">Email Address:</label>
+					<input type="text" name="email_address" id="email_address" placeholder="E-mail Address" required>
+				</div>
+				<div class="subs">
+					<label for="phone_number">Phone:</label>
+					<input type="tel" name="phone_number" id="phone_number" placeholder="Phone #">
+				</div>
+				<div class="subs">
+					<label for="p_contact">Preferred contact?</label><br>
+					<input type="radio" name="preffered_contact" id="p_contact">Phone<br>
+					<input type="radio" name="preffered_contact" id="p_contact">E-mail<br>
+					<input type="radio" name="preffered_contact" id="p_contact">Both<br>
+				</div>
+				<div class="subs">
+					<label for="subs">Select your Subscription Plan:</label><br>
+					<select name="subscribe" id="subs" required>
+						<option value="none">--Choose--</option>
+						<option value="monthly">Monthly Subscription (&#36;10 USD per month)</option>
+						<option value="yearly">Yearly Subscription (&#36;100.05 USD per year)</option>
+					</select>
+				</div>
+				<div class="subs">
+					Sport interest:<br>
+					<input type="checkbox" name="football" value="football" id="football"><label for="football">Football</label><br>
+					<input type="checkbox" name="basketball" value="basketball" id="basketball"><label for="basketball">Basketball</label><br>
+					<input type="checkbox" name="baseball" value="baseball" id="baseball"><label for="baseball">Baseball</label><br>
+					<input type="checkbox" name="hockey" value="hockey" id="hockey"><label for="hockey">Hockey</label><br>
+					<input type="checkbox" name="golf" value="golf" id="golf"><label for="golf">Golf</label><br>
+													<br>
+					<input type="text" name="other" id="other" placeholder="other">
+				
+				</div>
+			
+				<h2>Please fill in credit information</h2>
+				<div class="subs">
+					<label for="payment">Payment type:</label></br>
+					<input type="radio" name="pcard" id="payment">Credit Card
+					<input type="radio" name="pcard" id="payment">Debit Card
+				</div>
+				<div class="subs">
+					<label id="firstname">First Name:</label>
+					<input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+				</div> 
+				<div class="subs">
+					<label for="lastname">Last Name:</label>
+					<input type="text" name="lastname" id="lastname" placeholder="Last Name" required>	
+				</div>
+				<div class="subs">
+					<label for="credit_num">Credit Card Number:</label>
+					<input type="text" name="credit_num" id="credit_num" placeholder="Credit Card Number" required>
+				</div>
+				<div class="subs">
+					<label for="cvc">CVC:</label>
+					<input type="text" name="cvc" id="cvc" placeholder="cvc" required>
+				</div>
+				<div class="subs">
+					<label for="expmonth">Expiration Date:</label>
+					<input type="month" name="expdate" id="expdate" required>
+				</div>
+				<div class="subs">
+					<input type="submit" value="submit" id="submit">
+				</div>
+		</form>	
+	  </div>  
+		 <footer class="sectioncolor">
+			<p>&copy; 2019, Dave's Sport Center by David Espinal</p>
+			<nav>  	
+				<ul class="row">
+					<li><a href="#" title="home">Home</a></li>
+					<li><a href="#" title="sport news">Sport News</a></li>
+					<li><a href="#" title="about">About</a></li>
+					<li><a href="#" title="contact">Contact</a></li> 		
+		 		</ul>
+			</nav>	
+		</footer>
+	</body>
+	</html>

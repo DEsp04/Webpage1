@@ -1,0 +1,254 @@
+body {
+	font-family: Geneva, Verdana, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	background-color: #FFFFFF;
+	color: #214579;
+	margin: 0;	
+}
+
+#wrapper {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#banner {
+	text-align: center;
+}
+
+h1 {
+	color: #e51129;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	font-size: 1.35rem;
+}
+
+h2 {
+	font-size: 1.25rem;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+nav ul {
+	padding-left: 0;
+}
+
+.row {
+	display: flex;
+}
+
+nav li {
+	list-style-type: none;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 7px;
+	margin-top: 7px;
+	font-weight: bold; 
+}
+
+nav a {
+	text-decoration: none;
+	color: #214579;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.sectioncolor {
+	background-color: #93d250;
+}
+
+article h1 a {
+	text-decoration: none;
+	color: #e51129;
+}
+
+article h1 a:hover {
+	color: #e8d753;
+}
+
+article h2 a {
+	text-decoration: none;
+	color: #181CF5;
+}
+
+article h2 a:hover {
+	color:  #e8d753;
+}
+
+article {
+	width: 75%;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 2%;
+	padding-right: 4%; 
+}
+
+aside h2 a {
+	text-decoration: none;
+	color: #181CF5;
+}
+
+aside h2 a:hover {
+	color:  #e8d753;
+}
+
+aside li a {
+	text-decoration: none;
+	color: #F0F0F0
+}
+
+aside li a:hover {
+	font-weight: 900;
+}
+
+aside {
+	width: 25%;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 2%;
+	padding-right: 3%;
+}
+
+.othersports {
+	list-style-type: none;
+	padding-left: 8px;
+}
+
+.othersports li {
+	margin-bottom: 15px;
+}
+
+
+#boxing {
+	list-style-image: url(../images/boxing.jpg);
+}
+
+#mma {
+	
+	list-style-image: url(../images/mma.jpg);
+}
+
+#bowling {
+	
+	list-style-image: url(../images/bowling.jpg);
+}
+
+#nascar {
+	
+	list-style-image: url(../images/nascar.png);
+}
+
+#pool {
+	
+	list-style-image: url(../images/pool.jpg);
+}
+
+#gym {
+	list-style-image: url(../images/gymnastics.jpg);
+}
+
+#ncaa {	
+	list-style-image: url(../images/ncaa.jpg);
+}
+
+#soccer {
+	list-style-image: url(../images/soccer.jpg);
+}
+
+#golf {
+	list-style-image: url(../images/golf.jpg);
+}
+
+#tennis {
+	list-style-image: url(../images/tennis.jpg);
+}
+
+#rugby {
+	list-style-image: url(../images/rugby.jpg);
+}
+
+#cycling {
+	list-style-image: url(../images/cycling.png);
+}
+
+#cricket {
+	list-style-image: url(../images/cricket.jpg);
+}
+
+#forone {
+	list-style-image: url(../images/formulaone.jpg);
+}
+
+footer {
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 25px;
+	font-size: 90%;
+
+}
+
+footer nav {
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+	
+}
+
+footer p, footer ul, footer li {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+footer p {
+	color: #708090;
+}
+
+footer a {
+	color: #e8d753;
+}
+
+footer li a:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+.readmore:hover {
+	color:  red;	
+}
+
+#moreon {
+	text-decoration: none;
+	color: blue;
+	font-weight: bolder;	
+}
+
+#moreon:hover {
+	color: red;
+}
+
+#subscribe {
+	position: fixed;
+	top: 320px;
+	margin-left: 180px;
+}
+
+#subscribe img {
+	border: none;
+
+}
+
+#subscribe a:link {
+	border: none;
+}
+
+#subscribe a:link{
+	border: none;
+}
+
+
+
+
+
+
